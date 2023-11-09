@@ -1,0 +1,323 @@
+<div class="main-container">
+  <nav class="header">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Головна</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Топ серверів</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Нові сервери</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="image-wrapper">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2638dcd9-6ba3-4af2-9574-2505e145d9b4?apiKey=f4d00804cc054720be110ddc59132901&" class="main-image" />
+    <div class="image-container">
+      <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a0b6b195-c8f1-413e-8481-6ce98f43f912?apiKey=f4d00804cc054720be110ddc59132901&"class="sub-image" />
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c5bc094-1667-4ed9-94bf-7355e4a437b5?apiKey=f4d00804cc054720be110ddc59132901&" class="sub-image" />
+    </div>
+  </div>
+  <div class="login-container">
+    <div class="login">
+      <a href="#" class="login-link">Вхід</a>
+    </div>
+    <div class="register">
+      <div class="register-inner">
+        <a href="#" class="register-link">Реєстрація</a>
+      </div>
+    </div>
+  </div>
+    <div class="image-wrapper">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa115dca-480f-41fe-9539-e97318b9a04a?apiKey=f4d00804cc054720be110ddc59132901&" class="img" />
+    <div class="description">Всі сервери</div>
+  </div>
+  <div class="div-4"></div>
+  <div class="div-5">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c8fe6d12-f632-436e-83a7-346bf70ea1df?apiKey=f4d00804cc054720be110ddc59132901&" class="img-2" />
+    <div class="div-6">Додати фільтр</div>
+  </div>
+</div>
+
+<style>
+  .main-container {
+    background-color: var(--White, #fff);
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 8px 20px;
+  }
+
+  @media (max-width: 991px) {
+    .main-container {
+      max-width: 100%;
+    }
+  }
+
+  .header {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .nav-list {
+    align-self: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .nav-list {
+      justify-content: center;
+    }
+  }
+
+  .nav-item {
+    color: var(--White, #fff);
+    align-self: stretch;
+    white-space: nowrap;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: var(--light-accent, #161616);
+    flex: 1;
+    padding: 8px 16px;
+    font: 700 14px Inter Tight, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .nav-item {
+      white-space: initial;
+    }
+  }
+
+  .nav-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .image-wrapper {
+    align-self: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: auto 0;
+  }
+
+  .main-image {
+    aspect-ratio: 1.27;
+    object-fit: contain;
+    object-position: center;
+    width: 61px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+
+  .image-container {
+    display: flex;
+    flex: 1;
+  }
+
+  .sub-image {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .login-container {
+    align-self: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: auto 0;
+  }
+
+  .login {
+    color: var(--light-accent, #161616);
+    align-self: center;
+    margin: auto 0;
+    font: 400 14px Inter Tight, sans-serif;
+  }
+
+  .login-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .login-link:hover {
+    text-decoration: underline;
+  }
+
+  .register {
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: var(--light-primary-done, #88dba8);
+    align-self: stretch;
+    display: flex;
+    width: 123px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 12px 20px;
+  }
+
+  .register-inner {
+    color: var(--light-secondary-done, #075e45);
+    align-self: center;
+    white-space: nowrap;
+    font: 700 14px Inter Tight, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .register-inner {
+      white-space: initial;
+    }
+  }
+
+  .register-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  .main-container {
+    border-radius: 10px;
+    background-color: var(--White, #fff);
+    align-self: center;
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    padding: 8px 20px 16px;
+  }
+
+  @media (max-width: 991px) {
+    .main-container {
+      max-width: 100%;
+    }
+  }
+
+  .image-wrapper {
+    align-items: flex-start;
+    align-self: start;
+    display: flex;
+    width: 86px;
+    max-width: 100%;
+    gap: 2px;
+  }
+
+  @media (max-width: 991px) {
+    .image-wrapper {
+      margin-left: -4px;
+    }
+  }
+
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+
+  .description {
+    color: var(--light-accent, #161616);
+    align-self: stretch;
+    white-space: nowrap;
+    font: 700 12px Inter Tight, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .description {
+      white-space: initial;
+    }
+  }
+
+  .div-4 {
+    background-color: #e0e0e0;
+    align-self: start;
+    margin-top: 7px;
+    width: 100%;
+    height: 1px;
+  }
+
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+    }
+  }
+
+  .div-5 {
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: var(--light-primary, #e0e0e0);
+    align-self: start;
+    display: flex;
+    margin-top: 8px;
+    width: 141px;
+    max-width: 100%;
+    gap: 8px;
+    padding: 9px 17px 9px 16px;
+  }
+
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-left: -4px;
+    }
+  }
+
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    overflow: hidden;
+    align-self: start;
+    max-width: 100%;
+  }
+
+  .div-6 {
+    color: var(--light-accent, #161616);
+    align-self: start;
+    white-space: nowrap;
+    font: 700 12px Inter Tight, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+
+</style>

@@ -1,0 +1,18 @@
+body, p, img {
+    font-weight: 200;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color: var(--tg-theme-button-color);
+}
